@@ -1,0 +1,43 @@
+Follow these instructions to fill in the table below:
+
+You are provided a suite of 15 C programs in directory lab1/test/ of
+the course VM.  Each program contains a single division instruction.
+
+First, inspect the code of each program, and fill in its ground truth
+(Good/Bad) in the Ground Truth column: 
+
+- Good if the program does not contain any divide-by-zero errors.
+- Bad if the program contains a divide-by-zero error.
+
+Next, run your analyzer on each program and fill in its result
+(Accept/Reject) in the Analysis Result column:
+
+- Accept if your analyzer does not report any divide-by-zero errors.
+- Reject if your analyzer reports a divide-by-zero error.
+
+Lastly, use the above computed results to calculate the Precision,
+Recall, and F-Measure of your analyzer on this suite of programs.
+
+ Program    |  Ground Truth  |  Analysis Result
+================================================
+simple0.c   |                |
+simple1.c   |                |
+simple2.c   |                |
+simple3.c   |                |
+simple4.c   |                |
+simple5.c   |                |
+simple6.c   |                |
+simple7.c   |                |
+simple8.c   |                |
+simple9.c   |                |
+simple10.c  |                |
+simple11.c  |                |
+simple12.c  |                |
+simple13.c  |                |
+simple14.c  |                |
+================================================
+
+Precision = 
+Recall    =
+F-measure =
+
