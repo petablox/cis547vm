@@ -6,13 +6,9 @@ int main(){
   int x = un + 1;
   int temp;
   if (x == 0) {
-    temp = y;
+    temp = y / x;
   } else if (x == 1) {
     temp = y - 3;
-  } else {
-    temp = 3 - y;
   }
 
-  z = temp / x;
-  return 0;
 }
