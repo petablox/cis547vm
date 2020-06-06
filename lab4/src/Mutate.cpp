@@ -41,7 +41,7 @@ std::string mutateC(std::string Origin) {
 
 std::string mutate(std::string Origin, Campaign& FuzzCampaign) {
   std::string Mutant;
-  switch (FuzzCampaign)
+  switch (FuzzCampaign) {
     case MutationA:
         return mutateA(Origin);
     case MutationB:
