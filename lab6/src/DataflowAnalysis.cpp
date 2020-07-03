@@ -69,6 +69,7 @@ bool DataflowAnalysis::runOnFunction(Function &F) {
     delete InMap[&(*I)];
     delete OutMap[&(*I)];
   }
+  ErrorInsts.clear();
   return false;
 }
 } // namespace dataflow

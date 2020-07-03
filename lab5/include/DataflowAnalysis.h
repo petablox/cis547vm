@@ -45,7 +45,7 @@ protected:
 
 inline bool isInput(Instruction *I) {
   if (CallInst *CI = dyn_cast<CallInst>(I)) {
-    return CI->getCalledFunction()->getName().equals("fgetc");
+    return CI->getCalledFunction() && CI->getCalledFunction()->getName().equals("fgetc");
   } else {
     return false;
   }
