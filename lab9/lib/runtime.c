@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <string.h>
 
-void __dbz_sanitizer__(int divisor, int line, int col) {
+void __sanitize__(int divisor, int line, int col) {
   if (divisor == 0) {
     printf("Divide-by-zero detected at line %d and col %d\n", line, col);
     exit(1);
